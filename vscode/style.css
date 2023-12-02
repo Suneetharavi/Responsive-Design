@@ -1,0 +1,163 @@
+
+/* Media Queries are solely based/ determined by view height and view width of the screen */
+
+/* VH and VW ???  */
+/* Screen Percentages */
+
+/*** Rule Of Thumb:  ALWAYS ALWAYS ALWAYS START WITH MOBILE VIEW*/
+
+@media screen and (max-width: 2580px) {
+    body {
+      background-color: lightblue;
+    }
+    .navbar{
+        border:solid peru;
+        height:200px;
+        width:50vw;
+        color:lemonchiffon;
+        margin:1em;
+    }
+    .ad{
+        border:solid lemonchiffon;
+        display:block;
+        margin:2em;
+    }
+    
+    .mainPic{
+        height:100px;
+        width:100px;
+    }
+    .desc{
+        color:blue;
+        padding:1em;
+        text-align:left;
+        font-family:cursive;
+    }
+    .main{
+        display:flex;
+        flex-wrap:none;
+    }
+    .magic{
+        height:290px;
+        width:290px;
+        border:solid orange;
+        background-image: url('https://feelslikehomeblog.com/wp-content/uploads/2022/05/homemade-vanilla-ice-cream-recipe-no-eggs-square.png');
+        background-size:cover;
+    }
+  }
+/* -------------------------------------------{Desktop View} */
+
+  @media screen and (max-width: 1880px) {
+    body {
+      background-color: rgb(243, 159, 159);
+    }
+    .navbar{
+        border:solid rgb(167, 212, 249);
+        height:200px;
+        width:50vw;
+        color:blue;
+        margin:1em;
+    }
+    .ad{
+        border:solid salmon;
+        display:block;
+        margin:.4em;
+    }
+    
+    .mainPic{
+        height:100px;
+        width:100px;
+    }
+    .desc{
+        color:blue;
+        padding:1em;
+        text-align:center;
+        font-size:12px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .main{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .magic{
+        height:290px;
+        width:290px;
+        border:solid rgb(0, 255, 149);
+        background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/1c/34/0c/5a/frozen-yoghurts.jpg');
+        background-size:cover;
+    }
+  }
+/* -------------------------------------------{Mid [IPAD]} */
+
+  @media screen and (max-width: 880px) {
+    body {
+      background-color: black;
+    }
+    .navbar{
+        border:solid white;
+        height:200px;
+      width:50vh;
+      color:lime;
+      margin:1em;
+      
+    }
+    .ad{
+        border:solid white;
+        display:block;
+        margin:1em;
+    }
+    
+    .mainPic{
+        height:100px;
+        width:100px;
+    }
+    .desc{
+        color:blue;
+        padding:1em;
+        text-align:right;
+        font-size:22px;
+        font-family:'Courier New', Courier, monospace;
+    }
+    .main{
+        display:block;
+        flex-wrap:none;
+    }
+    .magic{
+        height:290px;
+        width:290px;
+        border:solid orange;
+        background-image:url('https://veenaazmanov.com/wp-content/uploads/2017/07/Homemade-Chocolate-Ice-Cream-3.jpg');
+        background-size:cover;
+    }
+  }
+
+
+
+  /* -------------------------------------------{Mobile View} */
+
+  /* ------------------------{DEFAULT} */
+
+/* @media screen and (max-width: 480px) {
+
+    body{
+        background-color: aquamarine;
+    }
+    
+}
+ /* ---------------Desktop view----------------- */
+
+/* @media screen and (max-width: 880px) {
+
+    body{
+        background-color: grey;
+    }
+    
+}
+ /* ---------------Mobile(Ipad) view----------------- */
+/* @media screen and (max-width: 480px) {
+
+    body{
+        background-color: black;
+    }
+    
+} */  
