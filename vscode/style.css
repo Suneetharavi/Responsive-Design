@@ -44,6 +44,18 @@
         background-image: url('https://feelslikehomeblog.com/wp-content/uploads/2022/05/homemade-vanilla-ice-cream-recipe-no-eggs-square.png');
         background-size:cover;
     }
+
+    .vanilla {
+        display: block;
+        color: rgb(226, 55, 43);
+      }
+      .choclate{
+        display: none;
+      }
+      .strawberry {
+        display: none;
+      }
+     
   }
 /* -------------------------------------------{Desktop View} */
 
@@ -83,9 +95,21 @@
         height:290px;
         width:290px;
         border:solid rgb(0, 255, 149);
-        background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/1c/34/0c/5a/frozen-yoghurts.jpg');
+        background-image: url('https://www.adashofmegnut.com/wp-content/uploads/2022/09/Strawberry-Ice-Cream-1.jpg');
         background-size:cover;
     }
+
+    .vanilla {
+        display: none;
+       
+      }
+      .choclate{
+        display: none;
+      }
+      .strawberry {
+        display: block;
+        color:rgb(233, 233, 122);
+      }
   }
 /* -------------------------------------------{Mid [IPAD]} */
 
@@ -129,8 +153,25 @@
         background-image:url('https://veenaazmanov.com/wp-content/uploads/2017/07/Homemade-Chocolate-Ice-Cream-3.jpg');
         background-size:cover;
     }
+
+    .vanilla {
+        display: none;
+      }
+      .choclate{
+        display: block;
+        color: brown;
+      }
+      .strawberry {
+        display: none;
+      }
   }
 
+  .title{
+    color: rgb(144, 42, 165);
+    text-align: center;
+
+  }
+ 
 
 
   /* -------------------------------------------{Mobile View} */
